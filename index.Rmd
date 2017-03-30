@@ -58,9 +58,9 @@
 <table class = "table table-striped">
 <tr>
 <td>Jeff Arnold</td>
-<td></td>
-<td></td>
-<td></td>
+<td>M</td>
+<td>11:00am=1:00pm</td>
+<td><a href="http://www.washington.edu/maps/#!/smi">SMI 221B</a></td>
 </tr>
 <tr>
 <td>Daniel Yoo</td>
