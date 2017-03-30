@@ -12,10 +12,5 @@ This website is built with [Rmarkdown](http://rmarkdown.rstudio.com/rmarkdown_we
 
 To build the site,
 ```rconsole
-> source("build.R")
-```
-
-To serve the site locally and rebuild it dynamically with changes, run:
-```rconsole
-> source("serve.R")
+> rmarkdown::render_site()
 ```
