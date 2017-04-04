@@ -74,13 +74,20 @@ classes:
       reading_before:
         - >
             *Real Stats,* Ch 4, "Hypothesis Testing and Interval Estimation: Answering Research Questions"
-      reading_after: []
-      in_class: []
+      reading_after:
+        - >
+            EGAP [10 Things to Know About Statistical Power](http://egap.org/methods-guides/10-things-you-need-know-about-statistical-power)
+      in_class:
+        - >
+            Discussed *Real Stats* Ch 3 and 4: statistical power, estimate/estimators,
+            unbiasedness, consistency.
     - start: "2017-04-05 17:00"
       end: "2017-04-05 18:20"
       type: class
       date: '2017-04-05'
       reading_before:
+        - >
+            Acharya, Blackwell, and Sen. 2016. "[The Political Legacy of American Slavery](http://www.journals.uchicago.edu/doi/10.1086/686631)." *Journal of Politics*
         - >
             *Real Stats,* "Ch 5: Multivariate OLS: Where the Action Is"
         - >
@@ -103,22 +110,24 @@ classes:
       reading_before:
         - >
             *Real Stats,* Ch 6, "Dummy Variables: Smarter Than You Think"
+        - >
+            *Real Stats,* Ch 7, "Transforming Variables, Comparing Variables"
       reading_after: []
       in_class: []
     - start: "2017-04-12 17:00"
       end: "2017-04-12 18:20"
       type: class
       date: '2017-04-12'
-      reading_before:
-        - >
-            *Real Stats,* Ch 7, "Transforming Variables, Comparing Variables"
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-04-14 17:00"
       end: "2017-04-14 18:20"
       type: class
       date: '2017-04-14'
-      reading_before: []
+      reading_before:
+        - >
+            Nunn and Wantchekon. 2011. "[The Slave Trade and the Origins of Mistrust in Africa](https://dx.doi.org/10.1257/aer.101.7.3221)" *American Economic Review*
       reading_after: []
       in_class: []
   - week: 4
