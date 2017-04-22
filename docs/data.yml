@@ -1,11 +1,11 @@
 assignments:
   - name: "Assignment 1"
     url: "https://github.com/UW-POLS503/assignment-2017-1"
-    due: null
+    due-date: null
     corrections: null
   - name: "Assignment 2"
     url: "https://github.com/UW-POLS503/assignment-2017-2"
-    due: null
+    due-date: null
     corrections: null
 classes:
   - week: 1
