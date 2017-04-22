@@ -171,7 +171,11 @@ classes:
       end: "2017-04-24 18:20"
       type: class
       date: '2017-04-24'
-      reading_before: []
+      reading_before:
+      - >
+        Gross, J. H. 2014. ``Testing what matters (if you must test at all): a context-driven approach to substantive and statistical significance'' *American Journal of Political Science*
+      - >
+        McCaskey, K. & Rainey, C. 2015. ``Substantive Importance and the Veil of Statistical Significance'' *Statistics, Politics and Policy*
       reading_after: []
       in_class: []
     - start: "2017-04-26 17:00"
