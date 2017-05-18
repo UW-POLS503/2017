@@ -1,0 +1,49 @@
+---
+title: Assignments
+---
+
+```{r include=FALSE}
+library("yaml")
+library("htmltools")
+library("purrr")
+library("stringr")
+library("lubridate")
+
+localdata <- yaml.load_file("data.yml")
+
+render_assignment <- function(x) {
+  due_date <- x[["due-date"]]
+  if (!is.null(due_date)) {
+    due_date <- format(ymd_hm(due_date), "%a, %b %d, %Y %H:%M")
+  } else {
+    due_date <- ""
+  }
+  corrections <- x[["corrections"]]
+  if (!is.null(corrections)) {
+    corrections <- format(ymd_hm(corrections), "%a, %b %d, %Y %H:%M")
+  } else {
+    corrections <- ""
+  }
+  tags$td(
+    tags$tr(tags$a(href = x[["url"]], x[["name"]])),
+    tags$tr(HTML(due_date)),
+    tags$tr(HTML(corrections))    
+  )
+}
+
+render_assignments <- function(x) {
+   tags$table(
+     tags$th(
+       tags$tr("Assignment"),
+       tags$tr("Due date"),
+       tags$tr("Self corrections")    
+     ),
+     map(x, render_assignment)
+   )
+}
+```
+
+
+```{r echo=FALSE}
+render_assignments(localdata[["assignments"]])
+```

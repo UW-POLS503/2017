@@ -1,3 +1,12 @@
+assignments:
+  - name: "Assignment 1"
+    url: "https://github.com/UW-POLS503/assignment-2017-1"
+    due-date: null
+    corrections: null
+  - name: "Assignment 2"
+    url: "https://github.com/UW-POLS503/assignment-2017-2"
+    due-date: null
+    corrections: null
 classes:
   - week: 1
     topics: "OLS Review"
@@ -143,18 +152,20 @@ classes:
       end: "2017-04-19 18:20"
       type: class
       date: '2017-04-19'
-      reading_before:
+      reading_before: []
       reading_after: []
-      in_class: []
+      in_class:
+      - "Introduce [Assignment 2](https://github.com/UW-POLS503/assignment-2017-2)"
     - start: "2017-04-21 17:00"
       end: "2017-04-21 18:20"
       type: lab
       date: '2017-04-21'
       reading_before: []
       reading_after: []
-      in_class: []
+      in_class:
+      - "Work through [Assignment 2](https://github.com/UW-POLS503/assignment-2017-2) question 1"
   - week: 5
-    topics: "Causality, Experiments, Potential Outcomes"
+    topics: "Linear Regression Diagnostics, Bootstrap, Cross-Validation"
     meetings:
     - start: "2017-04-24 17:00"
       end: "2017-04-24 18:20"
@@ -162,11 +173,9 @@ classes:
       date: '2017-04-24'
       reading_before:
       - >
-          *MM*, Ch 1, "Randomized Trials"
+        Gross, J. H. 2014. ``Testing what matters (if you must test at all): a context-driven approach to substantive and statistical significance'' *American Journal of Political Science*
       - >
-          Keele. 2015. "[The Statistics of Causal Inference: A View from Political Methodology](doi:10.1093/pan/mpv007)," *Political Analysis*.
-      - >
-          Gelman and Imbens. "[Why ask Why? Forward Causal Inference and Reverse Causal Questions](http://www.nber.org/papers/w19614)," *NBER*
+        McCaskey, K. & Rainey, C. 2015. ``Substantive Importance and the Veil of Statistical Significance'' *Statistics, Politics and Policy*
       reading_after: []
       in_class: []
     - start: "2017-04-26 17:00"
@@ -175,7 +184,11 @@ classes:
       date: '2017-04-26'
       reading_before:
       - >
-          *MM*, Ch 1, "Randomized Trials"
+          [Bootstrapping](https://jrnold.github.io/intro-methods-notes/bootstrapping.html) notes
+      - >
+          [Prediction and Model Comparison Notes](https://jrnold.github.io/intro-methods-notes/prediction-and-model-comparison.html)
+      - >
+          [Boostrap Methods and Permutation Test](http://content.bfwpub.com/webroot_pubcontent/Content/BCS_4/IPS7e/Student/Companion%20Chapters/ips_chap16.pdf)
       reading_after: []
       in_class: []
     - start: "2017-04-28 17:00"
@@ -193,6 +206,21 @@ classes:
       type: class
       date: '2017-05-01'
       reading_before:
+      - >
+          *MM*, Ch 1, "Randomized Trials"
+      - >
+          Keele. 2015. "[The Statistics of Causal Inference: A View from Political Methodology](doi:10.1093/pan/mpv007)," *Political Analysis*.
+      - >
+          Gelman and Imbens. "[Why ask Why? Forward Causal Inference and Reverse Causal Questions](http://www.nber.org/papers/w19614)," *NBER*
+      - >
+          *MM*, Ch 1, "Randomized Trials"
+      reading_after:
+      in_class: []
+    - start: "2017-05-03 17:00"
+      end: "2017-05-03 18:20"
+      type: class
+      date: '2017-05-03'
+      reading_before:
       - "*MM*, Ch 2, \"Regression\""
       - "*MM*, Ch 6.1, \"Schooling, Experience, and Earnings\""
       - "*MM*, Ch 6.2, \"Twins Double the Fun\""
@@ -204,13 +232,6 @@ classes:
           Imbens. (2015) "[Matching Methods in Practice](https://dx.doi.org/10.3386/w19959)." *Journal of Human Resources*.
       - >
           Sekhon. (2009) "Opiates for the Matches: Matching Methods for Causal Inference"
-      in_class: []
-    - start: "2017-05-03 17:00"
-      end: "2017-05-03 18:20"
-      type: class
-      date: '2017-05-03'
-      reading_before: []
-      reading_after: []
       in_class: []
     - start: "2017-05-05 17:00"
       end: "2017-05-05 18:20"
