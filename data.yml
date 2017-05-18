@@ -7,6 +7,14 @@ assignments:
     url: "https://github.com/UW-POLS503/assignment-2017-2"
     due-date: null
     corrections: null
+  - name: "Assignment 3"
+    url: "https://UW-POLS503.github.io/assignment-2017-3"
+    due-date: "2017-05-24 17:00"
+    corrections: "2017-06-09 17:00"
+  - name: "Assignment 3"
+    url: "https://UW-POLS503.github.io/assignment-2017-4"
+    due-date: "2017-06-05 17:00"
+    corrections: "2017-06-09 17:00"
 classes:
   - week: 1
     topics: "OLS Review"
@@ -300,6 +308,7 @@ classes:
       type: class
       date: '2017-05-22'
       reading_before:
+      - "*Real Stats*, Ch 11"
       - "*MM*, Ch 4, \"Regression Discontinuity Designs\""
       - "*MM*, Ch 6.4, \"Rustling Sheepskin in the Lonestar State\""
       reading_after:
@@ -312,9 +321,7 @@ classes:
       end: "2017-05-24 18:20"
       type: class
       date: '2017-05-24'
-      reading_before:
-      - "*MM*, Ch 4, \"Regression Discontinuity Designs\""
-      - "*MM*, Ch 6.4, \"Rustling Sheepskin in the Lonestar State\""
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-26 17:00"
@@ -332,10 +339,10 @@ classes:
       type: class
       date: '2017-05-29'
       reading_before:
+      - "*Real Stats*, Ch 8."
       - "*MM*, Ch 5, \"Difference-in-Differences\""
       - >
           Bertrand, Duflo, Mullainathan. 2004. "[How Much Should We Trust Differences-In-Differences Estimates?](https://dx.doi.org/10.1162/003355304772839588)" *QJE*
-      - *Real Stats*, Ch 8
       reading_after:
       - Cameron and Miller. "[A Practitioner's Guide to Cluster-Robust Inference](http://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf)".
       in_class: []
@@ -344,8 +351,10 @@ classes:
       type: class
       date: '2017-05-31'
       reading_before:
-      - *Real Stats*, Ch 13
-      - *Real Stats*, Ch 15
+      - >
+        *Real Stats*, Ch 13
+      - >
+        *Real Stats*, Ch 15
       reading_after: []
       in_class: []
     - start: "2017-06-02 17:00"
