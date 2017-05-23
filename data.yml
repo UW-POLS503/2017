@@ -330,28 +330,22 @@ classes:
   - week: 10
     topics: "Panel Data, Difference-in-Differences"
     meetings:
-    - start: "2017-05-29 17:00"
-      end: "2017-05-29 18:20"
-      type: class
-      date: '2017-05-29'
-      reading_before:
-      - "*Real Stats*, Ch 8."
-      - "*MM*, Ch 5, \"Difference-in-Differences\""
-      - >
-          Bertrand, Duflo, Mullainathan. 2004. "[How Much Should We Trust Differences-In-Differences Estimates?](https://dx.doi.org/10.1162/003355304772839588)" *QJE*
-      reading_after:
-      - Cameron and Miller. "[A Practitioner's Guide to Cluster-Robust Inference](http://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf)".
-      in_class: []
     - start: "2017-05-31 17:00"
       end: "2017-05-31 18:20"
       type: class
       date: '2017-05-31'
       reading_before:
+      - "*Real Stats*, Ch 8."
+      - "*MM*, Ch 5, \"Difference-in-Differences\""
       - >
         *Real Stats*, Ch 13
       - >
         *Real Stats*, Ch 15
-      reading_after: []
+      reading_after:
+      - >
+        Bertrand, Duflo, Mullainathan. 2004. "[How Much Should We Trust Differences-In-Differences Estimates?](https://dx.doi.org/10.1162/003355304772839588)" *QJE*
+      - >
+        Cameron and Miller. "[A Practitioner's Guide to Cluster-Robust Inference](http://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf)".
       in_class: []
     - start: "2017-06-02 17:00"
       end: "2017-06-02 18:20"

@@ -26,8 +26,7 @@ render_assignment <- function(x) {
   }
   tags$td(
     tags$tr(tags$a(href = x[["url"]], x[["name"]])),
-    tags$tr(HTML(due_date)),
-    tags$tr(HTML(corrections))    
+    tags$tr(HTML(due_date))
   )
 }
 
@@ -35,8 +34,7 @@ render_assignments <- function(x) {
    tags$table(
      tags$th(
        tags$tr("Assignment"),
-       tags$tr("Due date"),
-       tags$tr("Self corrections")    
+       tags$tr("Due date")
      ),
      map(x, render_assignment)
    )
