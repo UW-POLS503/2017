@@ -2,19 +2,15 @@ assignments:
   - name: "Assignment 1"
     url: "https://github.com/UW-POLS503/assignment-2017-1"
     due-date: null
-    corrections: null
   - name: "Assignment 2"
     url: "https://github.com/UW-POLS503/assignment-2017-2"
     due-date: null
-    corrections: null
   - name: "Assignment 3"
     url: "https://UW-POLS503.github.io/assignment-2017-3"
     due-date: "2017-05-24 17:00"
-    corrections: "2017-06-09 17:00"
   - name: "Assignment 3"
     url: "https://UW-POLS503.github.io/assignment-2017-4"
     due-date: "2017-06-05 17:00"
-    corrections: "2017-06-09 17:00"
 classes:
   - week: 1
     topics: "OLS Review"
